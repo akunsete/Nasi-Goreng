@@ -1,0 +1,321 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.all {
+    margin: 0;
+    width: 100%;
+    padding: 35px; /* Mengurangi padding untuk perangkat seluler */
+    color: #86496c;
+    text-shadow: 1px 2px 10px rgb(117, 117, 117);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC4CDQHbgguswK_8ZFqKHPwwVDheaSTNe_gw&s);
+    background-position: center;}
+
+.content {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.text1 {
+    font-size: 24px;
+    font-family: "Syne", sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center; /* Mengatur teks menjadi di tengah */
+    /* text-align: center; */ /* Properti ini sebenarnya tidak diperlukan karena sudah didefinisikan di .content */
+}
+
+
+
+.text2 {
+    margin: 0 auto; /* Mengatur teks kedua menjadi di tengah */
+    max-width: 100%; /* Mengatur lebar maksimum gambar agar tidak melebihi lebar konten */
+    font-family: "Old Standard TT", serif;
+    font-weight: 600;
+}
+
+.image {
+    display: block; /* Membuat gambar menjadi blok agar margin otomatis dapat bekerja */
+    margin: 0 auto; /* Mengatur gambar menjadi di tengah */
+    margin-top: 20px; /* Menambahkan jarak atas untuk gambar */
+    max-width: 100%; /* Mengatur lebar maksimum gambar agar tidak melebihi lebar konten */
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 2px 2px 10px black;
+}
+
+.akun {
+    padding: 20px; /* Mengurangi padding untuk perangkat seluler */
+}
+
+.judul {
+    font-size: 32px;
+    font-family: "Syne", sans-serif;
+    font-weight: bold; /* Menjadikan teks judul lebih tebal */
+    color: #5c374c;
+    margin-bottom: 20px; /* Menambahkan jarak bawah untuk pemisahan antara judul dan blok isi */
+    text-align: center; /* Memusatkan judul */
+}
+
+.isi1 {
+    margin-right: 8px;
+    margin-bottom: 20px; /* Menambahkan margin bawah untuk memberi ruang di antara elemen-elemen */
+    padding: 20px; /* Menambahkan ruang di dalam setiap elemen */
+    width: calc(33.33% - 40px); /* Mengatur lebar masing-masing elemen agar tiga elemen dapat muat dalam satu baris */
+    background-color: #E8751A;
+    color: #F8F6E3;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.v1 {
+    margin-left: 0; /* Atur margin menjadi nol */
+    margin-bottom: 10px; /* Kurangi margin bawah untuk memberi ruang di antara elemen-elemen */
+    font-size: 18px; /* Atur ukuran font */
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu-item {
+    margin: auto;
+    margin-top: 120px;
+    width: 20%;
+    background-color: #e2e2e2; /* Ubah warna latar belakang */
+    color: #5c374c; /* Warna teks */
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.menu-item h2 {
+    margin-top: 0; /* Hilangkan margin atas pada judul */
+}
+
+.menu-item a {
+    display: inline-block;
+    background-color: #ff6e35; /* Ubah warna latar belakang tombol */
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.menu-item a:hover {
+    background-color: #ff8c61;
+}
+
+.ISI {
+    font-family: "Syne", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.item {
+    font-size: 14px;
+    font-family: "Old Standard TT", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.gak {
+    margin-top: 700px;
+}
+
+.idk1 {
+    text-align: center; /* Center align text */
+    padding: 20px; /* Add padding for spacing */
+}
+
+.idk1 h2 {
+    font-size: 24px; /* Adjust heading font size */
+    color: #5c374c; /* Set heading color */
+}
+
+.idk1 p {
+    font-family: "Old Standard TT", serif; /* Set font family for paragraph */
+    color: #5c374c; /* Set paragraph color */
+}
+
+.idk1 a {
+    display: inline-block; /* Make anchor elements display as blocks */
+    color: #fff; /* Set text color for buttons */
+    text-decoration: none; /* Remove underline from buttons */
+    padding: 10px 20px; /* Add padding to buttons */
+    border-radius: 5px; /* Add border radius to buttons */
+    margin-right: 10px; /* Add margin between buttons */
+}
+
+.idk, .pesan1 {
+    background-color: #5c374c;
+}
+
+.idk, .pesan {
+    background-color: #faa275;
+}
+
+.pesan a {
+    background-color: #5c374c;
+}
+
+.idk1 a:hover {
+    background-color: rgba(158, 158, 158, 0.7); /* Change background color on hover */
+}
+
+.Ready {
+    font-size: 40px;
+    color: #5c374c;
+    font-family: "Syne", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: bold;
+}
+
+.bagian-atas, .bagian-bawah {
+    display: flex;
+}
+
+.bagian-atas {
+    margin-bottom: 20px;
+    margin-bottom: 20px; /* Menambahkan margin bawah pada bagian atas */
+    margin-right: 10px; /* Menambahkan margin kanan pada bagian atas */
+    margin-left: 10px; /* Menambahkan margin kiri pada bagian atas */
+}
+
+.bagian-bawah {
+    margin-top: 20px;
+    margin-top: 20px; /* Menambahkan margin atas pada bagian bawah */
+    margin-right: 10px; /* Menambahkan margin kanan pada bagian bawah */
+    margin-left: 10px; /* Menambahkan margin kiri pada bagian bawah */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.footer-container p {
+    margin: 0;
+}
+
+.generated-date {
+    font-style: italic; /* Optionally style the generated date */
+}
+
+/* Keyframes untuk animasi fade-in */
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Mulai dari posisi sedikit di bawah */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Posisi akhir */
+    }
+}
+
+/* Tambahkan kelas animasi ke setiap elemen yang ingin dimunculkan */
+.fade-in {
+    opacity: 0;
+    animation: fadeInAnimation 0.5s ease forwards;
+}
+
+/* Menambahkan penundaan untuk muncul satu per satu */
+.fade-in:nth-child(1) {
+    animation-delay: 0.5s; /* Menunda animasi selama 0.5 detik */
+}
+
+.fade-in:nth-child(2) {
+    animation-delay: 1s; /* Menunda animasi selama 1 detik */
+}
+
+.fade-in:nth-child(3) {
+    animation-delay: 1.5s; /* Menunda animasi selama 1.5 detik */
+}
+/* Tambahkan .fade-in:nth-child(n) dengan penundaan yang sesuai untuk elemen-elemen berikutnya */
+
+/* Tambahkan kelas animasi ke setiap elemen yang ingin dimunculkan */
+.fade-in1 {
+    opacity: 0;
+    animation: fadeInAnimation 0.8s ease forwards;
+}
+
+/* Menambahkan penundaan untuk muncul satu per satu */
+.fade-in1:nth-child(1) {
+    animation-delay: 0.8s; /* Menunda animasi selama 0.5 detik */
+}
+
+.fade-in1:nth-child(2) {
+    animation-delay: 2s; /* Menunda animasi selama 1 detik */
+}
+
+.fade-in1:nth-child(3) {
+    animation-delay: 2.3s; /* Menunda animasi selama 1.5 detik */
+}
+/* Tambahkan .fade-in:nth-child(n) dengan penundaan yang sesuai untuk elemen-elemen berikutnya */
+
+
+/* Penyesuaian untuk layar ukuran kecil */
+@media only screen and (max-width: 600px) {
+    .content {
+        flex-direction: column; /* Mengubah tata letak menjadi satu kolom pada layar kecil */
+    }
+
+    .menu-item {
+        width: 80%; /* Mengurangi lebar item menu pada layar kecil */
+    }
+
+    .text1 {
+        font-size: 20px; /* Mengurangi ukuran font judul pada layar kecil */
+    }
+
+    .bagian-atas, .bagian-bawah {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .isi1 {
+        margin-bottom: 20px; /* Menambahkan margin bawah untuk memberi ruang di antara elemen-elemen */
+        padding: 20px; /* Menambahkan ruang di dalam setiap elemen */
+        width: 98%; /* Mengatur lebar masing-masing elemen agar menempati lebar penuh kontainer */
+    }
+
+     .footer-container {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        text-align: center; /* Center align text on smaller screens */
+    }
+}
+
+/* Penyesuaian untuk layar ukuran sedang */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .content {
+        flex-direction: row; /* Mengubah tata letak menjadi dua kolom pada layar sedang */
+    }
+
+    .menu-item {
+        width: 45%; /* Mengurangi lebar item menu pada layar sedang */
+    }
+}
+
+/* Penyesuaian untuk layar ukuran besar */
+@media only screen and (min-width: 901px) {
+    .content {
+        flex-direction: row; /* Mengubah tata letak menjadi dua kolom pada layar besar */
+    }
+
+    .menu-item {
+        width: 30%; /* Mengurangi lebar item menu pada layar besar */
+    }
+}
